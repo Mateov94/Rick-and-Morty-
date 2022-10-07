@@ -1,0 +1,83 @@
+.App {
+  max-width: 1620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header2{
+  background-image: url("./assets/img/RK1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding-left: 60%;
+  padding-top: 5%;
+}
+.title {
+  width: 560px;
+}
+.header-information {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 20%;
+}
+input[type=text] {
+  width: 70%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+}
+input, .BtnBuscar{
+  position: relative;
+  width:15%;
+  height: 50px;
+  padding: 0;
+  border: 10px;
+}
+
+input{
+  background-color: #333;
+  border: none;
+}
+.BtnBuscar{
+  border: none;
+  background-color: #333;
+  border-style: solid;
+  border-color: white;
+  max-width: 30%;
+}
+.locations{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.name_Location{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.Info__container {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+.Info-description{
+  float: left;
+  padding: 2rem ;
+  font-size: 20px;
+  display: flex;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
